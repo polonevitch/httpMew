@@ -1,15 +1,16 @@
 **RELEASE: r2040**
 
-[TOC]
-
 ## Add additional fields to Money Transfer Audit Logs
 
-*MR NUMBER:* 					 ADMCSA-858
-*DEVELOPER NAME:*				 [Ed Carr](Ed.Carr@idt.net)
-*DATE:* 	 					 Thursday, July 19, 2018  3:10:06 PM EDT
-*TARGET SERVER TYPES:* 			 IVR VRU
-*SOFTWARE MODULES:*			 ivrCallSvr
+*MR NUMBER:*                            ADMCSA-858
 
+*DEVELOPER NAME:*                       [Ed Carr](Ed.Carr@idt.net)
+
+*DATE:*                                 Thursday, July 19, 2018  3:10:06 PM EDT
+
+*TARGET SERVER TYPES:*                  IVR VRU
+
+*SOFTWARE MODULES:*                     ivrCallSvr
 
 
 **FEATURE DESCRIPTION:**
@@ -95,12 +96,11 @@ In addition, there will be additional substatuses produced on audit event 363 wh
 
 ## Incorrect Fee is taken when Transaction is reversed multiple times
 
-*MR NUMBER:*					 MVNO-1961
-*DEVELOPER NAME:*				 [Michelle Wong](Michelle.Wong@idt.net)
-*DATE:* 						 Mon Jul 23 15:41:27 EDT 2018
-*TARGET SERVER TYPES:*			 debit database
-*SOFTWARE MODULES:*			 debitSkSvrXML
-
+*MR NUMBER:*                            MVNO-1961
+*DEVELOPER NAME:*                       [Michelle Wong](Michelle.Wong@idt.net)
+*DATE:*                                 Mon Jul 23 15:41:27 EDT 2018
+*TARGET SERVER TYPES:*                  debit database
+*SOFTWARE MODULES:*                     debitSkSvrXML
 
 
 **FEATURE DESCRIPTION:**

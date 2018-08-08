@@ -63,6 +63,7 @@ In addition, there will be additional substatuses produced on audit event 363 wh
   - "MT Pay At Store Status: <pasDisplayStatus>, ",
 
   where:
+  
 | Field                | Description                                                  |
 | -------------------- | ------------------------------------------------------------ |
 | <payerAgent>         | Is the name of the agency that sends the money.              |
@@ -97,15 +98,19 @@ In addition, there will be additional substatuses produced on audit event 363 wh
 ## Incorrect Fee is taken when Transaction is reversed multiple times
 
 *MR NUMBER:*                            MVNO-1961
+
 *DEVELOPER NAME:*                       [Michelle Wong](Michelle.Wong@idt.net)
+
 *DATE:*                                 Mon Jul 23 15:41:27 EDT 2018
+
 *TARGET SERVER TYPES:*                  debit database
+
 *SOFTWARE MODULES:*                     debitSkSvrXML
 
 
 **FEATURE DESCRIPTION:**
 
-​	When transaction is created and reversed multiple times (for Pay@Store Accept/Reverse Payment), the Fee that is returned is taken randomly instead of taking the last one. For an example you can use pin: 1155336236 and Date: 7/9/2018 (QA)
+When transaction is created and reversed multiple times (for Pay@Store Accept/Reverse Payment), the Fee that is returned is taken randomly instead of taking the last one. For an example you can use pin: 1155336236 and Date: 7/9/2018 (QA)
 
 ---
 
